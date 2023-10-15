@@ -15,7 +15,7 @@ logging.set_verbosity_info()
 
 # argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--csv', type=str, default='data/K50_Dataset3.csv')
+parser.add_argument('--csv', type=str, default='data/K50_dG_Dataset1_Dataset2.csv')
 parser.add_argument('--output_dir', type=str, default='datasets/analysis', help='Output directory')
 parser.add_argument('--wildtype_map', type=str, default=None)
 parser.add_argument('--dG_names', nargs='+', type=str, default=['deltaG_t', 'deltaG_c', 'deltaG'],
