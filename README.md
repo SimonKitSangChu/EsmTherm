@@ -5,6 +5,9 @@
 conda create -n esmtherm python=3.10 --file=environment.yml
 conda activate esmtherm
 pip install -e .
+
+# To download the model checkpoints
+gdown https://drive.google.com/drive/u/1/folders/1z3_IbeD8oORmLndqCCiqYRCxmbKNbWXb -O output_dir/checkpoint-best --folder
 ```
 
 ### Dataset Preparation
