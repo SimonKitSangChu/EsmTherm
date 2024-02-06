@@ -9,6 +9,7 @@ dependencies:
   - bioconda::mmseqs2
   - bioconda::foldseek
   - pip:
+      - accelerate
       - biopython
       - gdown
       - scikit-learn
